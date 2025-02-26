@@ -1,4 +1,4 @@
-# CRUD operation in REAT API
+# CRUD operation in REST API
 
 In this app you can perform CRUD operation on REST API using axios
 
