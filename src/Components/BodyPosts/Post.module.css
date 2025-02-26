@@ -1,0 +1,61 @@
+.div-main{
+    margin-top: 100px;
+    height: max-content;
+    width: 100%;
+    background-color: rgb(10, 10, 42);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.post-card{
+    height: max-content;
+    width: 380px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    background-color: rgb(47, 47, 80);
+    padding: 10px;
+}
+.post-card p{
+    margin-bottom: 6px;
+}
+.post-card p:nth-child(1){
+    color: red; 
+    font-weight: 550;
+}
+.post-card p:nth-child(2){
+    color: yellow; 
+    font-weight: 550;
+    height: max-content;
+}
+.post-card p:nth-child(3){
+    height: 80px;
+}
+.edit-btn,.delete-btn{
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    height: 26px;
+    width: 80px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+}
+.edit-btn{
+    background-color: rgb(1, 154, 1);
+}
+.delete-btn{
+    background-color: rgb(206, 0, 0);
+}
+.edit-btn,.delete-btn:hover{
+    cursor: pointer;
+}
+
+@media(max-width:815px){
+    .post-card{
+        font-size: 14px;
+    }
+}

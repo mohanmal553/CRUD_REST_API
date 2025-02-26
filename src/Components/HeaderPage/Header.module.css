@@ -1,0 +1,57 @@
+.div-main {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(10, 10, 42);
+    z-index: 10;
+}
+
+.input-body {
+    height: 50px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: rgb(57, 57, 114);
+}
+
+.input-body input {
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: aliceblue;
+}
+
+.input-body button {
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(31, 31, 227);
+}
+
+.input-body button:hover {
+    cursor: pointer;
+}
+
+@media(max-width:815px) {
+    .input-body input {
+        height: 28px;
+        width: 135px;
+        font-size: 14px;
+    }
+}
